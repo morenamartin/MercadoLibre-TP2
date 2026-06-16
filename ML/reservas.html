@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mercado Libre</title>
+  <link rel="stylesheet" href="reservas.css">
+</head>
+<body>
+
+  <!-- 1. BARRA DE NAVEGACIÓN SUPERIOR (HEADER) -->
+  <header class="navbar">
+    <div class="nav-top">
+      <img src="images/logo.png" alt="Mercado Libre" class="logo">
+      <div class="search-container">
+        <input type="search" id="header-search" placeholder="Buscar productos, marcas y más...">
+        <button class="search-btn"><img src="images/Presentación Organización Empresarial Mercado Libre (2).png" alt="lupa" id="iconobuscador"></button>
+        <a href="/ML/ia/index.html"><button type="submit" id="ia logo"> <img src="images/Presentación Organización Empresarial Mercado Libre (1).png" alt="ia logo"></button></a>
+      </div>
+      <div class="promo-meli">
+        <img src="images/Captura de pantalla 2026-06-14 223928.png" alt="" class="promo-meli"></div>
+    </div>
+    <nav class="nav-bottom">
+      <div class="location">Enviar a Calle...</div>
+      <ul class="menu-links">
+        <li>Categorías</li>
+        <li>Ofertas</li>
+        <li>Cupones</li>
+        <li>Supermercado</li>
+        <li>Moda</li>
+        <li>Mercado Play</li>
+        <li>Vender</li>
+        <li>Ayuda</li>
+      </ul>
+      <ul class="menu-links">
+        <li>Usuario</li>
+        <li>Mis compras</li>
+        <li>Favoritos</li>
+        <li>Notificaciones</li>
+        <li>Carrito</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. CONTENIDO PRINCIPAL -->
+  <main class="container">
+    <h1>Reservas</h1>
+    
+    <!-- Barra de búsqueda secundaria -->
+    <div class="sub-search">
+      <input type="search" placeholder="Busca por local...">
+    </div>
+
+    <!-- 3. LISTA DE TARJETAS DE RESERVA -->
+    <section class="reservas-list">
+      
+      <!-- Tarjeta 1 -->
+      <article class="reserva-card">
+        <div class="card-date">14 de Junio</div>
+        <div class="card-content">
+          <div class="card-img-placeholder group-icons"></div>
+          <div class="productos">
+              <img src="images/689827-800-450.webp" alt="">
+              <img src="images/7622201735340_E01.webp" alt="">
+              <img src="images/7793704000911_02.webp" alt="">
+              <img src="images/7798054220293_02.webp" alt="">
+              <img src="images/images.jpg" alt="">
+              <img src="images/7795735000335_02.webp" alt="">
+              <img src="images/7791720026274_01.webp" alt="">
+            </div>
+          <div class="card-info">
+            <span class="status-pending">Pendiente de entrega</span>
+            <h2>Carrefour</h2>
+            <p>7 productos</p>
+          </div>
+          <button class="btn-action">Ver reserva</button>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article class="reserva-card">
+        <div class="card-date">14 de Junio</div>
+        <div class="card-content">
+          <div class="card-img-placeholder single-icon"></div>
+          <img src="images/Captura de pantalla 2026-06-14 220454.png" alt="" class="productos">
+          <div class="card-info">
+            <span class="status-pending">Pendiente de entrega</span>
+            <h2>McDonald's</h2>
+            <p>1 producto</p>
+          </div>
+          <button class="btn-action">Ver reserva</button>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>

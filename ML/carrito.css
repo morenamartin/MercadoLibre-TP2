@@ -1,0 +1,366 @@
+body{
+  min-width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ebebeb; 
+}
+.navbar {
+  background-color: #fff159; 
+  padding: 10px 50px;
+  margin: 0;
+}
+.nav-top img{
+    width: 100px;;
+}
+
+.promo-meli img{
+    width: 200px;;
+}
+.nav-top, .nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-links{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+}
+
+.search-container {
+  display: flex;
+  background: white;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.search-container button{
+  background: none;
+  border: none;
+}
+.search-container img{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.search-container input {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+
+.search-bar {
+  display: flex;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+  width: 50%;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+}
+.compras{
+  display: flex;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.columna-productos{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 7;
+  width: 100%;
+}
+.tarjeta-producto{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+
+}
+.vendedor-header strong{
+  font-size: 16px;
+  color: #333;
+
+}
+.tienda-oficial{
+  font-size: 12px;
+  color: #666;
+  margin: 4px 0 0 24px;
+}
+.check-azul{
+  color: #3483fa;
+}
+.producto-listado {
+  display: flex;
+  flex-direction: column;
+}
+
+.producto-cuerpo,
+.producto-listado {
+  border-top: 1px solid #ededed;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.producto-listado, .productocuerpo:first-child{
+  border-top: none;
+  padding-top: 0;
+  margin-top: 10px;
+}
+.producto-cuerpo{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.producto-imagen-contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+.producto-imagen {
+  width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+.producto-detalles{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.producto-titulo{
+  color: #3483fa;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.selector-cantidad button{
+  display: inline-block;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: fit-content;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #3483fa;
+  font-weight: bold;
+}
+#check-item{
+  margin-top: 5px;
+}
+.input-cantidad{
+  width: 32px;
+  text-align: center;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  outline: none;
+  background: #fff;
+}
+.producto-acciones{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 80px;
+}
+.btn-eliminar{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 16px;
+}
+.producto-precio{
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
+
+.columna-resumen{
+  flex:3;
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.tarjeta-blanca{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+.titulo-tarjeta{
+  font-size: 18px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.linea-resumen{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.precio-productos{
+  text-decoration: none;
+  font-size: 14px;
+}
+.enlace-cupon{
+  display:inline-block;
+  color:#3483fa;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+.linea-total{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  border-top: 1px solid #ededed;
+  padding-top: 16px;
+  margin-bottom: 24px;
+}
+.precio-total{
+  font-size: 20px;
+}
+.btn-continuar{
+  width: 100%;
+  background-color: #3483fa;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-continuar:hover{
+  background-color: #2968c8;
+}
+
+.opciones-entrega{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.opcion-radio{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+.contenedor-calendario{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  color:#1a1a1a;
+  font-family: Arial, sans-serif;
+}
+.mes-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.mes-nombre{
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-mes-flecha{
+  background: none;
+  border: none;
+  color:#1a1a1a;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.calendario-grid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.dia-semana{
+  font-size: 11px;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.dia-numero-activo,
+.dia-numero, .dia-numero-seleccionado{
+  background: none;
+  border:none;
+  color:#1a1a1a;
+  font-size: 13px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.dia-numero:hover{
+  background-color: #2968c8;
+  color:#ffffff;
+}
+.dia-numero-activo{
+ background-color: #fff159;
+ color: #1a1a1a;
+}
+.dia-numero-seleccionado{
+  background-color: #3483fa !important;
+  color:#ffffff !important;
+  font-weight: bold !important;
+}
+
+.contenedor-reloj{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid #333;
+}
+
+.input-hora::-webkit-calendar-picker-indicator{
+  filter:invert(1);
+  cursor: pointer;
+}
