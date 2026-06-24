@@ -5,30 +5,33 @@ body {
 }
 
 /* Encabezado Amarillo */
-.navbar {
-  background-color: #fff159; /* Amarillo Mercado Libre */
-  padding: 10px 50px;
+/* .navbar {
+  background-color: #fff159; 
+  padding: 10px 20px;
+  max-width: 100%;
 }
 .nav-top img{
-    width: 200px;
-}
+    width: 100px;;
+} */
 
-.promo-meli img{
-    width: 200px;;
-}
-.nav-top, .nav-bottom {
+/* .nav-top, .nav-bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-.menu-links{
+} */
+/* .menu-links{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
     list-style: none;
-}
+} */
+
+/* .menu-links li{
+  font-size: 14px;
+} */
 /* Buscador del Header */
-.search-container {
+/* .search-container {
   display: flex;
   background: white;
   border-radius: 2px;
@@ -55,13 +58,12 @@ body {
   padding: 10px;
   width: 100%;
   outline: none;
-}
+} */
 
-/* Buscador Secundario (Bordes muy redondeados) */
 .sub-search input {
   border: 1px solid #ccc;
   padding: 12px 20px;
-  border-radius: 25px; /* Crea el efecto ovalado */
+  border-radius: 25px; 
   width: 300px;
   outline: none;
   margin: 10px;
@@ -96,7 +98,7 @@ body {
 }
 
 .card-info {
-  flex-grow: 1; /* Hace que los textos ocupen el espacio central */
+  flex-grow: 1; 
   
 }
 .card-info img{
@@ -114,7 +116,7 @@ body {
 }
 
 .status-pending {
-  color: #ffc107; /* Color amarillo/naranja del texto de estado */
+  color: #ffc107; 
   font-size: 14px;
 }
 

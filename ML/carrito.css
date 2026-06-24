@@ -5,9 +5,9 @@ body{
   background-color: #ebebeb; 
 }
 .navbar {
-  background-color: #fff159; 
-  padding: 10px 50px;
-  margin: 0;
+  background-color: #fff159; /* Amarillo Mercado Libre */
+  padding: 10px 20px;
+  max-width: 100%;
 }
 .nav-top img{
     width: 100px;;
@@ -18,14 +18,19 @@ body{
 }
 .nav-top, .nav-bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 .menu-links{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
     list-style: none;
+}
+
+.menu-links li{
+  font-size: 14px;
 }
 
 .search-container {

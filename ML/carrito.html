@@ -5,15 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carrito</title>
   <link rel="stylesheet" href="carrito.css">
+  <link rel="stylesheet" href="navbar-styles.css">
 </head>
 <body>
-  <header class="navbar">
+    <header class="navbar">
     <div class="nav-top">
-      <img src="images/logo.png" alt="Mercado Libre" class="logo">
+      <a href="index.html">
+          <img src="images/logo.png" alt="Mercado Libre" class="logo">
+      </a>
       <div class="search-container">
         <input type="search" id="header-search" placeholder="Buscar productos, marcas y más...">
         <button class="search-btn"><img src="images/Presentación Organización Empresarial Mercado Libre (2).png" alt="lupa" id="iconobuscador"></button>
-        <a href="/ML/ia/index.html"><button type="submit" id="ia logo"> <img src="images/Presentación Organización Empresarial Mercado Libre (1).png" alt="ia logo"></button></a>
+        <a href="/ia/index.html"><button type="submit" id="ia logo"> <img src="images/Presentación Organización Empresarial Mercado Libre (1).png" alt="ia logo"></button></a>
       </div>
       <div class="promo-meli">
         <img src="images/Captura de pantalla 2026-06-14 223928.png" alt="" class="promo-meli"></div>
@@ -29,13 +32,15 @@
         <li>Mercado Play</li>
         <li>Vender</li>
         <li>Ayuda</li>
-      </ul>
-      <ul class="menu-links">
         <li>Usuario</li>
-        <li>Mis compras</li>
+        <li>
+          <a  href="/reservas.html" style="font-weight: 700; text-decoration: none; color: black;">Mis reservas</a>
+        </li>
         <li>Favoritos</li>
         <li>Notificaciones</li>
-        <li>Carrito</li>
+        <li>
+          <a  href="/carrito.html" style="font-weight: 700; text-decoration: none; color: black;">Carrito</a>
+        </li>
       </ul>
     </nav>
   </header>
